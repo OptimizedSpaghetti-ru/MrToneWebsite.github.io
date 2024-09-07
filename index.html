@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./assets/icons/favicon.ico"
+      sizes="16x16 32x32 48x48 64x64"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <title>Home | Mr. Tone Guitar Shop</title>
+  </head>
+  <body class="background">
+    <nav class="navigation__bg">
+      <div class="navigation container container--xl">
+        <!-- logo, account -->
+        <div class="navigation__item">
+          <div>
+            <a href="./index.html">
+              <img
+                src="./assets/images/logo.png"
+                alt="Logo image"
+                class="navigation__logo"
+              />
+            </a>
+          </div>
+          <div class="navigation__profile">
+            <a href="./register.html">
+              <div>
+                <img src="./assets/icons/icon_account.svg" alt="Account icon" />
+              </div>
+            </a>
+            <p>
+              Welcome,
+              <strong
+                ><a href="./profile.html" class="nav-link"
+                  >RUSSELL IGNACIO</a
+                ></strong
+              >!
+            </p>
+          </div>
+        </div>
+        <!-- nav items -->
+        <div class="navigation__item">
+          <ul class="navigation__links">
+            <li>
+              <a href="./index.html" class="navigation__links--active">Home</a>
+            </li>
+            <li><a href="./shop.html">Shop</a></li>
+
+            <li class="dropdown">
+              <a href="./order.html">Order</a>
+              <div class="dropdown__content">
+                <ul class="navigation__links dropdown__links">
+                  <li><a href="./place-order.html">Place Order</a></li>
+                  <li><a href="./summary.html">Summary of order</a></li>
+                  <li>
+                    <a href="./order.html">History of orders</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li><a href="./about.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main--padding">
+      <!-- hero -->
+      <hr class="divider container--xl" />
+      <div class="hero hero__img">
+        <span class="hero__text">Featured</span>
+      </div>
+      <div class="featured container container--xl">
+        <!-- categories -->
+        <div class="featured__categories">
+          <div
+            class="button featured__button featured__button--active"
+            id="category1"
+          >
+            best selling
+          </div>
+          <div class="button featured__button" id="category2">sale</div>
+          <div class="button featured__button" id="category3">top rated</div>
+          <div class="button featured__button" id="category4">new items</div>
+        </div>
+
+        <!-- products -->
+        <div class="products">
+          <!-- product -->
+          <div class="products__item">
+            <!-- img -->
+            <a href="./product.html">
+              <img
+                class="products__item__img"
+                src="./assets/images/gt_01.png"
+                alt=""
+              />
+            </a>
+            <!-- name -->
+            <h4 class="products__item__name">
+              <a href="./product.html" class="nav-link">Rick Owens Guitar</a>
+            </h4>
+            <!-- price -->
+            <p class="products__item__price">PHP 4,500</p>
+            <!-- buttons -->
+            <div class="products__item__buttons">
+              <div class="button">
+                <span>
+                  <img
+                    class="button__icon"
+                    src="./assets/icons/shopping_bag.svg"
+                    alt="Buy icon"
+                  />
+                </span>
+                Buy
+              </div>
+              <div class="button">
+                <span>
+                  <img
+                    class="button__icon"
+                    src="./assets/icons/shopping_cart.svg"
+                    alt="Cart icon"
+                  />
+                </span>
+                Add to Cart
+              </div>
+            </div>
+          </div>
+          <!-- product -->
+          <div class="products__item">
+            <!-- img -->
+            <a href="./product.html">
+              <img
+                class="products__item__img"
+                src="./assets/images/gt_02.png"
+                alt=""
+              />
+            </a>
+            <!-- name -->
+            <h4 class="products__item__name">
+              <a href="./product.html" class="nav-link">Jaggedmaster</a>
+            </h4>
+            <!-- price -->
+            <p class="products__item__price">PHP 9,000</p>
+            <!-- buttons -->
+            <div class="products__item__buttons">
+              <div class="button">
+                <span>
+                  <img
+                    class="button__icon"
+                    src="./assets/icons/shopping_bag.svg"
+                    alt="Buy icon"
+                  />
+                </span>
+                Buy
+              </div>
+              <div class="button">
+                <span>
+                  <img
+                    class="button__icon"
+                    src="./assets/icons/shopping_cart.svg"
+                    alt="Cart icon"
+                  /> </span
+                >Add to Cart
+              </div>
+            </div>
+          </div>
+          <!-- product -->
+          <div class="products__item">
+            <!-- img -->
+            <a href="./product.html">
+              <img
+                class="products__item__img"
+                src="./assets/images/gt_03.png"
+                alt=""
+              />
+            </a>
+            <!-- name -->
+            <h4 class="products__item__name">
+              <a href="./product.html" class="nav-link">Montero Acoustic</a>
+            </h4>
+            <!-- price -->
+            <p class="products__item__price">PHP 15,000</p>
+            <!-- buttons -->
+            <div class="products__item__buttons">
+              <div class="button">
+                <span>
+                  <img
+                    class="button__icon"
+                    src="./assets/icons/shopping_bag.svg"
+                    alt="Buy icon"
+                  />
+                </span>
+                Buy
+              </div>
+              <div class="button">
+                <span>
+                  <img
+                    class="button__icon"
+                    src="./assets/icons/shopping_cart.svg"
+                    alt="Cart icon"
+                  /> </span
+                >Add to Cart
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/home.js"></script>
+  </body>
+</html>
